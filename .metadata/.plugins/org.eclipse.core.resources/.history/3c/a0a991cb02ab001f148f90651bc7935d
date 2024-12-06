@@ -1,0 +1,19 @@
+package p_hlw;
+
+import java.lang.classfile.TypeAnnotation.LocalVarTargetInfo;
+
+public class HLW {
+	
+	public String name = "HY"; // Biến toàn cục ( intance)
+	public static String nameString = "HY"; // Bien static
+
+	public void getInfo() {
+		int age = 10;// Biến cục bộ ( local)
+		}
+		
+	public void main(String[] args) {
+		System.out.println("Hello team Automation Testing");
+		System.out.println(nameString);
+		System.out.println(getInfo());
+	}
+}

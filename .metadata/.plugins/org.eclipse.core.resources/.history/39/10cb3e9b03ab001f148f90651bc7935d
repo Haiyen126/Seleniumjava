@@ -1,0 +1,23 @@
+package p_hlw;
+
+
+
+public class HLW {
+	
+	public String name = "HY"; // Biến toàn cục ( intance)
+	public static String nameString = "HY"; // Bien static
+
+	public static void getInfo() {
+		String name1 = "Hy1";
+		int age = 10;// Biến cục bộ ( local)
+		String date = "12/06/2000";
+		
+		System.out.println(name1 + age + date);
+		}
+		
+	public static void main(String[] args) {
+		System.out.println("Hello team Automation Testing");
+//		System.out.println(nameString);
+		getInfo();
+	}
+}

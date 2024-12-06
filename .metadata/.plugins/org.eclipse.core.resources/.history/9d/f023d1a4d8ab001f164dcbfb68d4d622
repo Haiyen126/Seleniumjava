@@ -1,0 +1,17 @@
+package p_hlw;
+
+public class ToanTu {
+
+	public static void main(String[] args) {
+		int number1 = 10;
+		int number2 = 20;
+		float number3 = 5.5f;
+		String chuoi1 = "H";
+		Boolean sex = true;
+		
+		
+		System.out.println(number1 + number2);
+
+	}
+
+}

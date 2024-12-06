@@ -1,0 +1,21 @@
+package Buoi4;
+
+
+
+class TestClass {
+	public int number1 = 10;
+	public int number2 = 20;
+
+	public int Cong(int a, int b) {
+		return a + b;
+	}
+
+	public void Print(int a, int b) {
+		System.out.println(Cong(a, b));
+	}
+}
+
+public class ClassAndObject {
+	TestClass c1 = new TestClass();
+	c1.Print(1,2);
+}
